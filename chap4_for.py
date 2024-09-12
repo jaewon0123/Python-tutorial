@@ -16,3 +16,8 @@ for f in 과일들:
 
 for i in range(1,6): # 1부터 5까지 출력 range(1이상, 6미만)
     print(i)
+
+for g in range(2,10):
+    for j in range(1,10):
+        print(f"{g} x {j} = {g * j}")
+    print() #단 사이에 빈 줄 하나 추가해주기
